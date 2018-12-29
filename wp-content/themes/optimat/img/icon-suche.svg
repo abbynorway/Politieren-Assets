@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .lines {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="icon-suche" class="icon-ui">
+    <circle class="lines"  cx="78.92" cy="76.89" r="67.65"/>
+    <line class="lines" x1="123.62" y1="127.65" x2="188.73" y2="192.76"/>
+  </g>
+</svg>

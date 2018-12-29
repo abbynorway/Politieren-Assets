@@ -1,0 +1,242 @@
+/*||||||||||||||||||||||||||||||||||||
+||                                  ||
+||        MEDIA QUERIES PHONE       ||
+||                                  ||
+||||||||||||||||||||||||||||||||||||||*/
+
+        
+@media (max-width: 1920px) /* Laptops (max 1920px)*/
+{
+	
+/*.single-card
+	{
+	min-height: 30rem;
+		
+	padding: 2rem;
+	margin: 0 1rem 1rem 0;
+	}
+*/		
+}
+        
+@media (max-width: 432px) and (orientation: portrait) /* Smartphones (max 432px)*/
+	{
+        
+    body
+        {
+        font-size: 1.6rem;
+        font-weight: 300;
+        letter-spacing: 0.15rem;
+        line-height: 2.7rem;
+        
+        max-width: 100vw;
+        overflow-x: hidden;
+            
+       -moz-hyphens: auto;
+       -o-hyphens: auto;
+       -webkit-hyphens: auto;
+       -ms-hyphens: auto;
+       hyphens: auto; 
+        }
+        
+    .logo
+        {
+        height: 5rem;
+        margin: 0 1rem;
+        }
+        
+    header
+        {
+        padding: 1rem;    
+        }
+
+    .desktop
+        {
+        display: none;
+        }
+
+    .mobile
+        {
+        display: flex;
+        }
+        
+    /*================================
+                  MENU
+    ==================================*/
+
+    #toggle 
+        {
+        margin: 1.45rem 0;
+        z-index: 120;
+        }
+
+    #toggle span:after,
+    #toggle span:before 
+        {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: -9px;
+        }
+
+    #toggle span:after
+        {
+        top: 9px;
+        }
+
+    #toggle span 
+        {
+        position: relative;
+        display: block;
+        }
+
+    /************************* 
+            BURGER ICON
+    *************************/
+
+    #toggle span,
+    #toggle span:after,
+    #toggle span:before 
+        {
+        width: 3rem;
+        height: 5px;
+        background-color: #000000;
+        transition: all 0.3s;
+        backface-visibility: hidden;
+        border-radius: 1px;
+        }
+
+    /************************* 
+       BURGER ICON ACTIVATED
+    *************************/
+
+    #toggle.on span 
+        {
+        background-color: transparent;
+        }
+
+    #toggle.on span:before 
+        {
+        transform: rotate(45deg) translate(5px, 5px);
+        }
+
+    #toggle.on span:after 
+        {
+        transform: rotate(-45deg) translate(7px, -8px);
+        }
+
+    #toggle.on + #menu 
+        {
+        opacity: 1;
+        visibility: visible;
+        }
+
+    /************************* 
+          MENU APPEARANCE
+    *************************/
+    #menu 
+        {
+        position: absolute;
+        background-color: gainsboro;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        height: auto;
+        min-height: 100vh;
+        margin: -1rem 0 0 0;
+        padding: 4rem 0 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .4s;
+        z-index: 100;
+        }
+    
+    #menu ul
+        {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }  
+        
+    #menu li
+        {
+        text-align: center;
+        margin: 1rem auto;
+        }
+
+    div.content
+        {
+        height: auto;
+
+        padding: 1rem;    
+
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        }
+
+    .footer-container
+        {
+        height: auto;   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+		
+    /************************* 
+          Handy: Layout
+    *************************/		
+		h1
+			{
+			font-weight: 900;
+			font-size: 5rem;
+			line-height: 5rem;
+			}
+
+		.front-page h1
+			{
+			font-weight: 900;
+			font-size: 10vw;
+			line-height: 10vw;
+			}
+		
+		.profile-card
+			{
+			width: 80vw;
+			padding: 1rem;
+			margin: 1rem;
+			}
+		
+		#random-grad-container 
+			{
+			width: 60vw;
+			height: 60vw;
+			-moz-border-radius: 30vw;
+			-webkit-border-radius: 30vw;
+			border-radius: 30vw;
+			border: 2px solid #ffffff;
+			margin: 1rem;
+			}
+		
+		.single-card
+			{
+			width: 80vw;
+			margin: 1rem 0;
+			}
+		
+		.argumente-container
+			{
+			flex-direction: column;
+			}
+		
+		.argumente
+			{
+			margin: 0 0 1rem 0;
+			}
+
+		.argumente:last-of-type
+			{
+			margin: 0;
+			}
+		
+}

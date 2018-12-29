@@ -1,0 +1,23 @@
+/*
+Theme Name: OPTIMAT
+Author: Winona Biber
+Author URI: https://winonabiber.de
+Description: This is a Description.
+Version: 1.0
+Text Domain: optimat
+Tags: light
+*/
+
+/* SASS and Global'ish Stuff */
+@import "base/variables";
+@import "base/reset";
+@import "base/baseline";
+@import "base/utility-classes";
+
+/* BEM Blocks */
+@import "modules/main";
+@import "modules/icons";
+@import "modules/search";
+@import "modules/mediaqueries";
+@import "modules/thema-single";
+@import "modules/search-overlay";

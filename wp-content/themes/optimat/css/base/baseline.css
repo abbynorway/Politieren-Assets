@@ -1,0 +1,152 @@
+@define-mixin atSmall {
+  @media (min-width: 530px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atSmallMedium {
+  @media (min-width: 767px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atMedium {
+  @media (min-width: 960px) {
+    @mixin-content;
+  }
+}
+
+
+/*================================
+       F O N T S  I M P O R T
+==================================*/
+
+@font-face 
+   {
+	font-family: 'Brandon';
+	src: 	url('font/brandon-text-r.otf') format('opentype');
+	font-weight: 300;
+	font-style: normal;
+	}
+
+@font-face 
+   {
+	font-family: 'Brandon';
+	src: 	url('font/brandon-g-blk.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+	}
+
+@font-face 
+   {
+	font-family: 'Brandon';
+	src: 	url('font/brandon-g-bld.otf') format('opentype');
+	font-weight: 500;
+	font-style: normal;
+	}
+
+@font-face 
+   {
+	font-family: 'Brandon';
+	src: 	url('font/brandon-text-bold.otf') format('opentype');
+	font-weight: 600;
+	font-style: normal;
+	}
+
+@font-face 
+   {
+	font-family: 'Roboto Mono';
+	src: 	url('font/roboto-mono-light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	}
+
+@font-face 
+   {
+	font-family: 'Barlow';
+	src: 	url('font/Barlow-Regular.woff2') format('woff2'),
+       	url('font/Barlow-Regular.woff') format('woff'),
+       	url('font/Barlow-Regular.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	}
+
+@font-face 
+   {
+	font-family: 'Barlow';
+	src: url('font/Barlow-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+   }
+
+@font-face 
+   {
+	font-family: 'Barlow';
+	src: url('font/Barlow-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	}
+		
+@font-face 
+   {
+	font-family: 'Barlow';
+	src: url('font/Barlow-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+   }
+
+
+/*================================
+            B A S I C
+==================================*/
+
+html
+   {
+   font-size: 62.5%;
+	hyphens: auto;
+   }   
+
+body
+    {
+    background-color: $background-light;
+    color: $text-color;
+    font-family: $font-family;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    line-height: 2.5rem;
+
+    min-height:100vh;
+        
+    padding: 0;    
+        
+    display: flex;
+    flex-direction: column;
+	 align-content: stretch;
+    }
+
+::selection 
+	{
+	background: $primary2;      /* WebKit/Blink Browsers / Don't combine with ::-moz-selection / Changes text-selection-color */
+	}
+
+::-moz-selection 
+	{
+	background: $primary2;      /* Gecko Browsers */	
+	}
+
+.clearfix:before, .clearfix:after { content: ""; display: table;}
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+img
+    {
+    height: auto;
+    max-width: 100%;
+    }
+
+iframe
+    {
+    max-width: 100%;
+    min-height: 20rem;
+    }

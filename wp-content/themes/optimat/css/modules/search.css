@@ -1,0 +1,65 @@
+/*================================
+          S E A R C H
+==================================*/
+
+div.search
+    {
+    width: 30vw;
+    min-width: 50rem;
+    }
+
+#searchform>div
+	{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0 3rem;
+	}
+
+div.search label
+    {
+    left: -9999px;
+    position: absolute;
+    }
+
+/* Suchen – Feld */
+#s 
+	{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	
+	font-family: $font-mono;	
+	height: $button-height;
+	color: $primary1;
+	background-color: $bg-card;
+	padding: 0.3rem 1rem;
+	border-radius: $corner-radius;
+	margin: 0 1rem 0 0;
+		
+   position: relative;
+   overflow: visible;
+   white-space: nowrap;
+   background-image: none;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   text-shadow: none;	
+	border-width: 0;
+	}
+
+/* Suchen – Button */
+#search-submit
+   {
+	font-family: $font-family;
+		
+   border: 0;
+   white-space: nowrap;
+   display: inline-block;
+   background-image: none;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   text-shadow: none;
+   opacity: 1;
+	border-width: 0;
+   }

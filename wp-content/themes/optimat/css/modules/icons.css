@@ -1,0 +1,269 @@
+/*================================
+            I C O N S
+==================================*/
+
+.icon-tags a:last-of-type
+	{
+	margin-right: 0;
+	}
+
+.icon
+	{
+	width: 4vw;
+	}
+
+.icon-ui
+	{
+	height: $icon-height;
+	width: $icon-height;
+	cursor: pointer;
+	margin: 0 0 0 1rem;
+	}
+
+.icon-pfeil
+	{
+	width: 1.8rem;
+	height: auto;
+	margin: 0.2rem 0 0 0rem;
+	}
+
+.icon-grid
+	{
+	margin: 0 1rem 0 0;
+	}
+
+.icon-ui .lines 
+	{
+   fill: none;
+   stroke: $text-color;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-width: 0.7rem;
+	}
+
+.icon-pfeil .lines
+	{
+   stroke-width: 0.9rem;
+	}
+
+.icon-ui:hover .icon-ui .lines,
+.icon-ui:hover .lines,
+p.link:hover .icon-ui .lines
+	{
+   stroke: $primary1;
+	}
+
+/*.icon:hover .st0,
+.icon:hover .cls-2
+	{
+    stroke: #14a29e;
+	}
+
+.icon:hover, 
+.icon:hover * 
+	{
+    color: #14a29e;
+    stroke: #14a29e;
+	}
+*/
+
+.cls-1
+	{
+	fill:#fff;
+	}
+
+.cls-2
+	{
+	fill: #7a0b77;
+	stroke: #333;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 0px;
+	}
+
+.cls-3
+	{
+	fill: none;
+	stroke: #7a0b77;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 6px;
+	}
+
+.icon:hover .cls-2
+	{
+	fill: #af1eab;
+	}
+
+.icon:hover .cls-3
+	{
+	stroke: #af1eab;
+	}
+
+.cat-icon
+	{
+	height: 5rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	}
+
+.thema-single .cat-icon-c
+	{
+	height: 6rem;
+	margin: 0 3rem 0 0;
+	}
+
+.cat-icon-c
+	{
+	height: 5rem;
+	margin: 0.2rem 1rem 0.7rem 0;
+	}
+
+.cat-icon *,
+.cat-icon-c *
+	{
+	height: 100%;
+	}
+
+.cat-icon:last-of-type
+	{
+	margin-right: 0;
+	}
+
+.cat-icon:hover
+	{
+	opacity: 1;
+	}
+
+.cat-icon-c .cls-2
+	{
+	stroke-width: 5px;
+	}
+
+/*/// Kategorie Circle Icons Hintergrund ///*/
+
+#aussen-c .cls-1
+	{
+	fill: $aussen;
+	}
+
+#aussen-c #fill
+	{
+	fill: $aussen;
+	}
+
+#aussen-c:hover .cls-1,
+#aussen-c:hover #fill
+	{
+	fill: $aussen-h;
+	}
+
+#bildung-c .cls-1
+	{
+	fill: $bildung;
+	}
+
+#bildung-c:hover .cls-1
+	{
+	fill: $bildung-h;
+	}
+
+#digitales-c .cls-1
+	{
+	fill: $digitales;
+	}
+
+#digitales-c:hover .cls-1
+	{
+	fill: $digitales-h;
+	}
+
+#einwanderung-c .cls-1
+	{
+	fill: $einwanderung;
+	}
+
+#einwanderung-c:hover .cls-1
+	{
+	fill: $einwanderung-h;
+	}
+
+#gesellschaft-c .cls-1
+	{
+	fill: $gesellschaft;
+	}
+
+#gesellschaft-c:hover .cls-1
+	{
+	fill: $gesellschaft-h;
+	}
+
+#gesundheit-c .cls-1
+	{
+	fill: $gesundheit;
+	}
+
+#gesundheit-c:hover .cls-1
+	{
+	fill: $gesundheit-h;
+	}
+
+#infrastruktur-c .cls-1
+	{
+	fill: $infrastruktur;
+	}
+
+#infrastruktur-c:hover .cls-1
+	{
+	fill: $infrastruktur-h;
+	}
+
+#inneres-c .cls-1
+	{
+	fill: $inneres;
+	}
+
+#inneres-c:hover .cls-1
+	{
+	fill: $inneres-h;
+	}
+
+#sicherheit-c .cls-1
+	{
+	fill: $sicherheit;
+	}
+
+#sicherheit-c:hover .cls-1
+	{
+	fill: $sicherheit-h;
+	}
+
+#soziales-c .cls-1
+	{
+	fill: $soziales;
+	}
+
+#soziales-c:hover .cls-1
+	{
+	fill: $soziales-h;
+	}
+
+#umwelt-c .cls-1
+	{
+	fill: $umwelt;
+	}
+
+#umwelt-c:hover .cls-1
+	{
+	fill: $umwelt-h;
+	}
+
+#wirtschaft-c .cls-1
+	{
+	fill: $wirtschaft;
+	}
+
+#wirtschaft-c:hover .cls-1
+	{
+	fill: $wirtschaft-h;
+	}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .lines {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="icon-grid" class="icon-ui">
+    <rect class="lines" x="15" y="15.57" width="72.75" height="72.75"/>
+    <rect class="lines" x="112.25" y="15.57" width="72.75" height="72.75"/>
+    <rect class="lines" x="15" y="111.68" width="72.75" height="72.75"/>
+    <rect class="lines" x="112.25" y="111.68" width="72.75" height="72.75"/>
+  </g>
+</svg>
